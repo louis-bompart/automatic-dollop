@@ -1,0 +1,21 @@
+{
+  "name": "pty-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-winpty": "ts-node index.ts",
+    "start-conpty": "ts-node index.ts 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "node-pty": "^0.10.1"
+  }
+}
